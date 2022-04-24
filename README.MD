@@ -10,4 +10,8 @@ Berikut adalah langkah-langkahnya:
 
     $ in2csv US_births_1994-2014_astrology.xlsx > US_births_1994-2014_astrology.csv
 
-3. [TODO] Hapus kolom astrological_sign
+3. Eksekusi `log-to-csv.sh`
+
+    $ chmod 755 log-to-csv.sh
+
+    $ ./log-to-csv.sh
