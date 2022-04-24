@@ -10,8 +10,7 @@ Berikut adalah langkah-langkahnya:
 
     $ in2csv US_births_1994-2014_astrology.xlsx > US_births_1994-2014_astrology.csv
 
-3. Eksekusi `log-to-csv.sh`
+3. Delete `astronony` column
 
-    $ chmod 755 log-to-csv.sh
+    $ csvcut -c 1-5 US_births_1994-2014_astrology.csv > US_births_1994-2014.csv
 
-    $ ./log-to-csv.sh
